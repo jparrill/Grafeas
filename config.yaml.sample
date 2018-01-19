@@ -17,6 +17,6 @@ grafeas:
     # Endpoint address, e.g. localhost:10000
     address: localhost:10000
     # PKI configuration (optional)
-    cafile: /opt/certs/ca.crt
-    keyfile: /opt/certs/client.key
-    certfile: /opt/certs/client.key
+    cafile: /go/src/github.com/grafeas/grafeas/certs/ca.crt
+    keyfile: /go/src/github.com/grafeas/grafeas/certs/client.key
+    certfile: /go/src/github.com/grafeas/grafeas/certs/client.key
