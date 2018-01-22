@@ -35,7 +35,7 @@ type config struct {
 func defaultConfig() *config {
 	return &config{
 		&server.Config{
-			Address:  "localhost:10000",
+			Address:  "0.0.0.0:10000",
 			CertFile: "",
 			KeyFile:  "",
 			CAFile:   "",
